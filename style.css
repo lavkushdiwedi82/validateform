@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    margin: 50px;
+    padding: 50px;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+fieldset{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+input{
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: azure;
+    font-style: italic;
+    color: black;
+}
+#name:hover{
+    padding: 6px;
+    background-color: rgb(43, 226, 113);
+    font-style: oblique;
+}
+.pass:hover{
+    padding: 6px;
+    background-color: rgb(43, 226, 113);
+    font-style: oblique;
+}
+.butt:hover{
+    padding: 6px;
+    background-color: brown;
+    font-style: normal;
+}
